@@ -1,7 +1,5 @@
 package demo;
-import org.springframework.stereotype.Component;
 
-@Component
 public class Doctor implements Staff{
 	//we have to create loose coupling between the objects that we are using Spring helps us to do that
 	//loose coupling will help in unit testing
